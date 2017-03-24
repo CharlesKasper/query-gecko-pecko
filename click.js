@@ -1,20 +1,20 @@
 //declare samecolor() here
 function samecolor(hex){
     const doc= document;
-    let color= #528120;
-    let divs = doc.querySelectorAll("samecolor div");
+    let color= "#528120";
+    let divs = doc.querySelectorAll("#samecolor div");
         for (var i = 0; i < divs.length; i++) {
         divs[i].style.backgroundColor= color;
-        var temp= Math.rand;
+        var temp= Math.random();
         divs[i].opacity=temp;
     }
 }
 //declare diffcolor() here
 function diffcolor(){
     const doc= document;
-    let color= 743212;
-    let complement= 092371;
-    let divs = doc.querySelectorAll("diffcolor div");
+    let color= "#743212";
+    let complement= "#092371";
+    let divs = doc.querySelectorAll("#diffcolor div");
 
   for(var i=0; i<divs.length; i++){
     if(i % 2 == 0){
